@@ -1,2 +1,3 @@
+require("config")
+
 require("bindings")
-require("config.lazy")
