@@ -1,7 +1,5 @@
-which_key = require("which-key")
-
-which_key.register({
-    ["<leader>f"] = {
-	name = "file",
-    }
+require("which-key").register({
+  ["<leader>"] = {
+    e = { "<cmd>CHADopen<cr>", "Toggle Explorer" }
+  },
 })
