@@ -9,4 +9,5 @@ return {
     require("plugins.comment"),
     require("plugins.surround"),
     require("plugins.flash"),
+    require("plugins.sos"),
 }
