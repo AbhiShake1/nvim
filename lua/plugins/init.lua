@@ -1,6 +1,7 @@
 return {
     require("plugins.dashboard"),
     require("plugins.which-key"),
+    require("plugins.lsp"),
     require("plugins.chad-tree"),
     require("plugins.toggleterm"),
     require("plugins.noice"),
