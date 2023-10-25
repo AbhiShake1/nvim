@@ -1,5 +1,5 @@
 require("which-key").register({
   ["<leader>"] = {
-    e = { "<cmd>CHADopen<cr>", "Toggle Explorer" }
+    e = { "<cmd>CHADopen<cr>", "Toggle Explorer" },
   },
 })
