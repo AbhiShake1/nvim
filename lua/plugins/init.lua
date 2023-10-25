@@ -8,4 +8,5 @@ return {
     require("plugins.telescope"),
     require("plugins.comment"),
     require("plugins.surround"),
+    require("plugins.flash"),
 }
