@@ -7,4 +7,5 @@ return {
     require("plugins.move"),
     require("plugins.telescope"),
     require("plugins.comment"),
+    require("plugins.surround"),
 }
