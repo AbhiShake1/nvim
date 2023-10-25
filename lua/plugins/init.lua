@@ -11,4 +11,5 @@ return {
     require("plugins.surround"),
     require("plugins.flash"),
     require("plugins.sos"),
+    require("plugins.colorscheme"),
 }
