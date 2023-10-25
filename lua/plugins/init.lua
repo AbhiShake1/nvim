@@ -3,4 +3,5 @@ return {
     require("plugins.chad-tree"),
     require("plugins.toggleterm"),
     require("plugins.noice"),
+    require("plugins.mini"),
 }
