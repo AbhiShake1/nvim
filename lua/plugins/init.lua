@@ -4,4 +4,5 @@ return {
     require("plugins.toggleterm"),
     require("plugins.noice"),
     require("plugins.move"),
+    require("plugins.telescope"),
 }
