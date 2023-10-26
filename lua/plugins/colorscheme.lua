@@ -1,3 +1,3 @@
 return {
-    "nyngwang/nvimgelion",
+    "AbhiShake1/rengoku.nvim",
 }
