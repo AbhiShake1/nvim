@@ -1,22 +1,22 @@
 config = function()
   local cmp = require("cmp")
-  -- local luasnip = require("luasnip")
+  local luasnip = require("luasnip")
 
   cmp.setup {
     snippet = {
       -- must use a snippet engine
       expand = function(args)
-        -- luasnip.lsp_expand(args.body)
+        luasnip.lsp_expand(args.body)
       end,
     },
     completion = {
       -- start completion immediately
-      keyword_length = 1,
+      -- keyword_length = 1,
     },
     sources = {
       { name = "nvim_lsp" },
       { name = "nvim_lua" },
-      -- { name = "luasnip" },
+      { name = "luasnip" },
       { name = "path" },
       { name = "buffer" },
     },
@@ -65,7 +65,7 @@ config = function()
           path = "Path",
           buffer = "Buffer",
           cmdline = "Cmdline",
-          -- luasnip = "LuaSnip",
+          luasnip = "LuaSnip",
           nvim_lua = "Lua",
           nvim_lsp = "LSP",
         }
